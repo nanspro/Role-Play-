@@ -104,7 +104,6 @@ contract Game{
         uint16 idx_winner = index_player(winner);
         uint16 idx_loser = index_player(loser);
         uint16 c = players[idx_winner].exp - players[idx_loser].exp; 
-        a
         // players[idx_winner].rounds_won[players[idx_loser].id]++;
         // if(players[idx_loser].rounds_played[players[idx_winner].id]==3){
         
