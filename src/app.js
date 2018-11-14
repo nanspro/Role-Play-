@@ -22,7 +22,7 @@ function initWeb3() {
 
 
 function initWrestlingContract () {
-  $.getJSON('Wrestling.json', function(data) {
+  $.getJSON('Game.json', function(data) {
     // Get the necessary contract artifact file and instantiate it with truffle-contract
     WrestlingContract = TruffleContract(data);
 
