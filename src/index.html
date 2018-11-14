@@ -2,14 +2,18 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>Wrestling DApp</title>
+    <title>Role Playing Multiplayer App</title>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
   </head>
   <body>
-    <h1 class="text-center">Wrestling DApp</h1>
+    <h1 class="text-center">Multiplayer Fight DApp</h1>
     <hr/>
-
-    <div style="text-align: center;">
-      <h3>Today's wrestling event</h3>
+    
+    <div class="row" id="characterChoice">
+        <h3><center>Chooose A Character</center></h3>
+    </div>
+    <div id="fight" style="text-align: center;">
+      <h3>Multiplayer Fight</h3>
       <h3><span id="wrestler1"></span> <span style="color: red">VERSUS</span> <span id="wrestler2"></span></h3>
 
       <button id="registerToFight" onclick="registerAsSecondWrestler()">REGISTER TO FIGHT</button>
