@@ -1,5 +1,5 @@
-var Story = artifacts.require("./Story.sol");
+const Wrestling = artifacts.require("./Wrestling.sol")
 
 module.exports = function(deployer) {
-  deployer.deploy(Story);
+	deployer.deploy(Wrestling);
 };

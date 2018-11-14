@@ -1,8 +1,5 @@
-# Role-Play-
-A distributed app for an role playing game
+# Ethereum development Walkthrough part 5
 
-Installation:
-1. Clone this repo
-2. Download metamask, ganache and truffle
-3. Truffle migrate the contract and import one of your ganache accounts on metamask
-4. npm run dev 
+Repo for the fifth part of the Ethereum development Walkthrough tutorial series
+
+Use `npm install` to install the necessary modules.
