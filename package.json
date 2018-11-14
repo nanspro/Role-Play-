@@ -1,7 +1,7 @@
 {
   "name": "ethereum-walkthrough-5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Readme.MD",
   "main": "truffle-config.js",
   "directories": {
     "test": "test"
@@ -23,6 +23,6 @@
   "homepage": "https://github.com/devzl/ethereum-walkthrough-5#readme",
   "dependencies": {},
   "devDependencies": {
-    "lite-server": "^2.3.0"
+    "lite-server": "^2.4.0"
   }
 }
